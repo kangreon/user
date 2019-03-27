@@ -25,7 +25,7 @@ php vendor/phpunit/phpunit/phpunit
 **Create new user**
 ```
 Use POST method to 
-http://<host>/users
+http://<host>/api/users
 
 With data:
 name:name
@@ -37,7 +37,7 @@ gender:example
 **Update user**
 ```
 Use PUT method to 
-http://<host>/users/<user id>
+http://<host>/api/users/<user id>
 
 With data:
 name:name
@@ -49,17 +49,17 @@ gender:example
 **Delete user**
 ```
 Use DELETE method to 
-http://<host>/users/<user id>
+http://<host>/api/users/<user id>
 ```
 
 **View user**
 ```
 Use GET method to 
-http://<host>/users/<user id>
+http://<host>/api/users/<user id>
 ```
 
 **View all users**
 ```
 Use GET method to 
-http://<host>/users
+http://<host>/api/users
 ```
