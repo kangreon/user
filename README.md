@@ -36,7 +36,7 @@ gender:example
 
 **Update user**
 ```
-Use POST method to 
+Use PUT method to 
 http://<host>/users/<user id>
 
 With data:
